@@ -1,137 +1,141 @@
-<!doctype html>
-<html lang="fr">
+   <!DOCTYPE html>
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Réussir Bac Libre Maroc : ressources, méthodes de révision, annales et conseils pour préparer le baccalauréat libre au Maroc.">
-  <meta name="theme-color" content="#102a43">
-  <title>Réussir Bac Libre Maroc | Avance à ton rythme</title>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Réussir Bac Libre Maroc - دروس وملخصات</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: #f4f7f6;
+      margin: 0;
+      padding: 20px;
+      direction: rtl;
+    }
+    .header {
+      text-align: center;
+      padding: 20px 0;
+    }
+    .header h1 {
+      color: #1e3c72;
+      margin-bottom: 8px;
+    }
+    .header p {
+      color: #555;
+      font-size: 1.1rem;
+    }
+    /* شبكة المواد */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: 30px auto;
+    }
+    /* بطاقة المادة */
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 25px 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-top: 5px solid #1e3c72;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+    .card-icon {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    .card h3 {
+      margin: 0 0 10px 0;
+      color: #2c3e50;
+      font-size: 1.4rem;
+    }
+    .card p {
+      color: #7f8c8d;
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+    }
+    .btn-download {
+      display: inline-block;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .btn-download:hover {
+      background: linear-gradient(135deg, #2a5298, #1e3c72);
+    }
+  </style>
 </head>
 <body>
-  <div class="announcement">🎓 Une communauté pour avancer ensemble — un chapitre à la fois.</div>
-  <header class="site-header">
-    <a class="brand" href="#accueil" aria-label="Réussir Bac Libre Maroc - Accueil">
-      <span class="brand-mark">RB</span>
-      <span><strong>Réussir Bac Libre</strong><small>MAROC</small></span>
-    </a>
-    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
-    <nav class="nav">
-      <a href="#ressources">Ressources</a>
-      <a href="#methode">Méthode</a>
-      <a href="#communaute">Communauté</a>
-      <a class="nav-cta" href="#demarrer">Commencer →</a>
-    </nav>
-  </header>
 
-  <main>
-    <section class="hero section" id="accueil">
-      <div class="hero-copy reveal">
-        <div class="eyebrow"><span class="live-dot"></span> SPÉCIAL BAC LIBRE AU MAROC</div>
-        <h1>Ton objectif.<br><span>Ton rythme.</span><br>Ta réussite.</h1>
-        <p class="hero-text">Des ressources utiles, une méthode claire et une communauté qui comprend ton parcours. Prépare ton bac libre étape par étape, sans avancer seul.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#ressources">Explorer les ressources <span>↗</span></a>
-          <a class="button button-quiet" href="#methode">Découvrir la méthode</a>
-        </div>
-        <div class="trust-line"><span class="avatar-stack"><i>✦</i><i>✎</i><i>✓</i></span><span>Un espace pensé pour les candidats libres</span></div>
-      </div>
-      <div class="hero-visual reveal">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="study-card">
-          <div class="study-card-top"><span class="mini-label">TON ESPACE DE RÉVISION</span><span class="spark">✦</span></div>
-          <div class="progress-ring"><div><strong>01</strong><small>pas à pas</small></div></div>
-          <h3>Chaque séance compte.</h3>
-          <p>Comprendre · S'entraîner · Progresser</p>
-          <div class="fake-progress"><span></span></div>
-          <div class="card-bottom"><span>Objectif du jour</span><strong>Faire le premier pas ✓</strong></div>
-        </div>
-        <div class="floating-note note-top"><span>✎</span><div><strong>Une notion</strong><small>à la fois</small></div></div>
-        <div class="floating-note note-bottom"><span>↗</span><div><strong>Continue</strong><small>tu progresses</small></div></div>
-        <div class="hero-star">✳</div>
-      </div>
-    </section>
+  <div class="header">
+    <h1>📚 ملخصات ودروس بااك حر</h1>
+    <p>اختر المادة لتحميل الملخصات والامتحانات الوطنية PDF</p>
+  </div>
 
-    <section class="stats-strip" aria-label="Les piliers du site">
-      <div><strong>01</strong><span>Comprendre les cours</span></div>
-      <div><strong>02</strong><span>S'entraîner régulièrement</span></div>
-      <div><strong>03</strong><span>Apprendre ensemble</span></div>
-    </section>
+  <div class="grid-container">
 
-    <section class="section resources-section" id="ressources">
-      <div class="section-heading reveal">
-        <div><div class="eyebrow">TA BOÎTE À OUTILS</div><h2>Les ressources pour <span>avancer.</span></h2></div>
-        <p>Choisis une catégorie pour commencer. Les contenus seront ajoutés progressivement et vérifiés avant publication.</p>
-      </div>
-      <div class="filter-row" role="group" aria-label="Filtrer les ressources">
-        <button class="filter active" data-filter="all">Tout voir</button>
-        <button class="filter" data-filter="cours">Cours</button>
-        <button class="filter" data-filter="examens">Annales</button>
-        <button class="filter" data-filter="methode">Méthodologie</button>
-      </div>
-      <div class="resource-grid">
-        <article class="resource-card reveal" data-category="cours">
-          <div class="resource-icon icon-blue">∑</div><div class="resource-tag">COURS</div>
-          <h3>Les cours par matière</h3><p>Organise tes leçons et retrouve les notions essentielles de ta filière.</p>
-          <a href="#demarrer" class="text-link">Explorer les matières <span>→</span></a>
-        </article>
-        <article class="resource-card reveal" data-category="examens">
-          <div class="resource-icon icon-orange">✎</div><div class="resource-tag">ENTRAÎNEMENT</div>
-          <h3>Annales & examens</h3><p>Entraîne-toi avec les sujets des années précédentes et leurs corrigés disponibles.</p>
-          <a href="#demarrer" class="text-link">Voir les annales <span>→</span></a>
-        </article>
-        <article class="resource-card reveal" data-category="methode">
-          <div class="resource-icon icon-green">↗</div><div class="resource-tag">ORGANISATION</div>
-          <h3>La méthode de révision</h3><p>Construis un planning réaliste, révise activement et suis tes progrès.</p>
-          <a href="#methode" class="text-link">Découvrir la méthode <span>→</span></a>
-        </article>
-      </div>
-      <p class="content-note">Note : cette première version est une base de lancement. Les liens de ressources et les corrigés seront ajoutés après vérification de leur pertinence et de leurs droits de partage.</p>
-    </section>
+    <!-- مادة الرياضيات -->
+    <div class="card" style="border-top-color: #2196F3;">
+      <div class="card-icon">📐</div>
+      <h3>الرياضيات</h3>
+      <p>ملخصات الدروس، التمارين المحلولة والامتحانات الوطنية.</p>
+      <a href="pdf/math.pdf" class="btn-download" target="_blank">تحميل PDF</a>
+    </div>
 
-    <section class="method-section" id="methode">
-      <div class="section method-layout">
-        <div class="method-copy reveal">
-          <div class="eyebrow light-eyebrow">UNE MÉTHODE, PAS DE PRESSION</div>
-          <h2>Avance avec un plan <span>simple.</span></h2>
-          <p>Tu n'as pas besoin de tout maîtriser aujourd'hui. Commence par une petite action claire, puis répète-la.</p>
-          <a class="button button-light" href="#demarrer">Préparer mon premier pas →</a>
-        </div>
-        <div class="steps reveal">
-          <div class="step"><span class="step-number">01</span><div><h3>Faire le point</h3><p>Liste tes matières, tes chapitres et ce qui te semble difficile.</p></div><span class="step-check">✓</span></div>
-          <div class="step"><span class="step-number">02</span><div><h3>Planifier petit</h3><p>Choisis un objectif réaliste pour chaque séance de travail.</p></div><span class="step-check">✓</span></div>
-          <div class="step"><span class="step-number">03</span><div><h3>Pratiquer et corriger</h3><p>Résous des exercices, vérifie tes réponses et note tes erreurs.</p></div><span class="step-check">✓</span></div>
-        </div>
-      </div>
-    </section>
+    <!-- مادة الفلسفة -->
+    <div class="card" style="border-top-color: #9C27B0;">
+      <div class="card-icon">🧠</div>
+      <h3>الفلسفة</h3>
+      <p>منهجيات كتابة المقال الفلسفي والمفاهيم الأساسية.</p>
+      <a href="pdf/philosophie.pdf" class="btn-download" target="_blank">تحميل PDF</a>
+    </div>
 
-    <section class="section community-section" id="communaute">
-      <div class="community-panel reveal">
-        <div class="community-art"><span class="bubble bubble-one">?</span><span class="bubble bubble-two">✦</span><div class="people-icon">◎</div></div>
-        <div class="community-copy"><div class="eyebrow">ON AVANCE ENSEMBLE</div><h2>Ton parcours compte.<br><span>Ton expérience aussi.</span></h2><p>La communauté a vocation à partager des conseils, des ressources utiles et des expériences de candidats libres. Les espaces de discussion seront ajoutés quand ils seront prêts.</p><a class="button button-primary" href="#demarrer">Participer au projet <span>↗</span></a></div>
-      </div>
-    </section>
+    <!-- مادة الاجتماعيات -->
+    <div class="card" style="border-top-color: #4CAF50;">
+      <div class="card-icon">🌍</div>
+      <h3>الاجتماعيات</h3>
+      <p>ملخصات التاريخ والجغرافيا وخرائط مبسطة للحفظ.</p>
+      <a href="pdf/histoire-geo.pdf" class="btn-download" target="_blank">تحميل PDF</a>
+    </div>
 
-    <section class="section start-section" id="demarrer">
-      <div class="start-card reveal">
-        <div class="eyebrow">C'EST LE MOMENT DE COMMENCER</div>
-        <h2>Un petit pas aujourd'hui.<br><span>Un grand progrès demain.</span></h2>
-        <p>Dis-nous ce qui t'aiderait le plus à préparer ton bac libre.</p>
-        <form id="idea-form">
-          <label for="idea">La ressource que tu recherches</label>
-          <div class="form-row"><input id="idea" name="idea" type="text" placeholder="Ex. sujets de maths, planning, cours de physique…" required maxlength="180"><button class="button button-primary" type="submit">Copier mon idée ↗</button></div>
-          <p class="form-help" id="form-message" aria-live="polite">Aucune donnée n'est envoyée : cette version fonctionne directement dans ton navigateur.</p>
-        </form>
-      </div>
-    </section>
-  </main>
+    <!-- مادة اللغة العربية -->
+    <div class="card" style="border-top-color: #FF9800;">
+      <div class="card-icon">📖</div>
+      <h3>اللغة العربية</h3>
+      <p>قواعد اللغة، تحليل النصوص والظواهر اللغوية.</p>
+      <a href="pdf/arabe.pdf" class="btn-download" target="_blank">تحميل PDF</a>
+    </div>
 
-  <footer class="footer">
-    <a class="brand footer-brand" href="#accueil"><span class="brand-mark">RB</span><span><strong>Réussir Bac Libre</strong><small>MAROC</small></span></a>
-    <p>Un projet éducatif communautaire, construit étape par étape.</p>
-    <div class="footer-bottom"><span>© <span id="year"></span> Réussir Bac Libre Maroc</span><a href="#accueil">Retour en haut ↑</a></div>
-  </footer>
-  <script src="script.js"></script>
+    <!-- مادة الفيزياء والكيمياء -->
+    <div class="card" style="border-top-color: #E91E63;">
+      <div class="card-icon">⚡</div>
+      <h3>الفيزياء والكيمياء</h3>
+      <p>ملخصات القوانين، التجارب والتمارين التطبيقية.</p>
+      <a href="pdf/physique.pdf" class="btn-download" target="_blank">تحميل PDF</a>
+    </div>
+
+    <!-- مادة اللغة الفرنسية -->
+    <div class="card" style="border-top-color: #00BCD4;">
+      <div class="card-icon">🇫🇷</div>
+      <h3>Français</h3>
+      <p>Résumés des œuvres, production écrite et grammaire.</p>
+      <a href="pdf/francais.pdf" class="btn-download" target="_blank">تحميل PDF</a>
+    </div>
+
+  </div>
+
 </body>
 </html>
